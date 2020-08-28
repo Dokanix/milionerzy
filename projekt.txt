@@ -1,0 +1,43 @@
+Gra Milionerzy na podstawie znanego teleturnieju
+
+Otwieranie programu:
+bez argumentów uruchamia grę
+argument -v pokazuje wersje
+argument -a włącza tryb dodawania własnego pytania
+
+Interface
+- Wykres pokazujący zdobyte do tej poru pieniądze, który
+	z każdą poprawną odpowiedzią zbliża się do miliona
+- Opcje
+- Wspomagacze
+- Komentarz Narratora
+- Pytanie
+- Odpowiedzi
+- Odpowiedź Gracza
+- Kolejny komentarz Narratora
+- Komunikat o poprawności odpowiedzi
+
+Rozgrywka
+- Gracz odpowiada po kolei na pytania wpisując do konsoli A, B, C, D
+- Jego poczynania komentuje narrator używając losowych zwrotów
+- Możliwe uruchomienie opcji
+- Możliwe wyświetlenie listy zwycięzców
+- Gracz ma do wykorzystania 3 jednorazowe wspomagacze:
+	Pół na pół - wykreśla dwie niepoprawne odpowiedzi
+	Pytanie do publiczności - zwraca procentowy wynik faworyzujący
+		poprawną odpowiedź, jednak nie zawsze ma ona największy
+		wynik
+	Zmiana pytania - Gracz przechodzi do kolejnego pytania, nie
+		tracąc przy tym ani nie zyskując pieniędzy
+- Dojście do miliona skutkuje możliwością wpisania się do listy zwycięzców,
+	którą później można obejrzeć w trakcie gry
+- Poprawna odpowiedź skutkuje przejściem do kolejnej z dwunastu rund
+- Niepoprawna odpowiedź skutkuje pożegnaniem gracza i wyjściem z programu
+
+Opcje
+- Możliwość przyśpieszenia rozgrywki, program nie wykonuje wtedy
+	dramatycznych pauz między komentarzami, wyświetleniem odpowiedzi,
+	ani instrukcjami
+- Możliwość wyłączenia narratora, jego komentarze nie są wtedy wyświetlane
+	na ekranie przed i po każdym pytaniu
+- Opcje można zmieniać dowolną ilość razy w trakcie rozgrywki
