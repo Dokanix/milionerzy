@@ -1,2 +1,2 @@
-# milionerzy
+# Milionerzy
 Milionerzy made with Bash
